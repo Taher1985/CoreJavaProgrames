@@ -11,6 +11,10 @@ class Person {
 		this.id = id;
 	}
 
+	public static void test() {
+		
+	}
+	
 	public String getName() {
 		return name;
 	}
@@ -53,7 +57,6 @@ public class EqualsDemo2 {
 		Person person1 = new Person("Taher", 123);
 		Person person2 = new Person("Nitin", 456);
 		Person person3 = new Person("Taher", 123);
-
 		System.out.println(person1.equals(person2));
 		System.out.println(person1.equals(person3));
 	}
