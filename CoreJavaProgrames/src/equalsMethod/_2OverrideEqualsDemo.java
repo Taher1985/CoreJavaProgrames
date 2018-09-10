@@ -1,11 +1,11 @@
-package _1equalsMethod;
+package equalsMethod;
 
-class Student {
+class Student1 {
 
 	private int studentId;
 	private String studentName;
 
-	public Student(int studentId, String studentName) {
+	public Student1(int studentId, String studentName) {
 		super();
 		this.studentId = studentId;
 		this.studentName = studentName;
@@ -37,7 +37,7 @@ class Student {
 		if (!(obj instanceof Student)) {
 			return false;
 		}
-		Student student = (Student) obj;
+		Student1 student = (Student1) obj;
 		if ((this.getStudentId() == student.getStudentId())
 				&& (this.getStudentName().equals(student.getStudentName()))) {
 			return true;
@@ -50,11 +50,11 @@ class Student {
 public class _2OverrideEqualsDemo {
 
 	public static void main(String[] args) {
-		Student student1 = new Student(123, "Taher");
-		Student student2 = new Student(456, "Nitin");
-		Student student3 = new Student(789, "Taher");
-		Student student4 = student1;
-		Student student5 = new Student(123, "Taher");
+		Student1 student1 = new Student1(123, "Taher");
+		Student1 student2 = new Student1(456, "Nitin");
+		Student1 student3 = new Student1(789, "Taher");
+		Student1 student4 = student1;
+		Student1 student5 = new Student1(123, "Taher");
 
 		System.out.println(student1.equals(student2));
 		System.out.println(student1.equals(student3));

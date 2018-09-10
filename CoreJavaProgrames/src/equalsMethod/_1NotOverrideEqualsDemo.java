@@ -1,4 +1,4 @@
-package _1equalsMethod;
+package equalsMethod;
 
 class Account {
 
