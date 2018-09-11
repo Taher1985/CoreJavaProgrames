@@ -66,10 +66,14 @@ public class _2ImmutableClassDemo {
 		System.out.println(person4);
 		System.out.println(person2 == person4);
 		
-		Boolean boolean1 = new Boolean("fgfgf");
-		Boolean boolean2 = new Boolean("taher");
+		System.out.println();
+		
+		Boolean boolean1 = new Boolean("false");
+		Boolean boolean2 = new Boolean("true");
+		Boolean boolean3 = new Boolean("TRUE");
 		System.out.println(boolean1);
 		System.out.println(boolean2);
+		System.out.println(boolean3);
 	}
 
 }
