@@ -36,7 +36,7 @@ public class _1NonImmutableClassDemo {
 		System.out.println(employee1);
 		System.out.println();
 		
-		employee1 = employee1.employeeUpdateExistingObject(employee2);
+		employee1.employeeUpdateExistingObject(employee2);
 		System.out.println(employee1);
 
 		System.out.println();
