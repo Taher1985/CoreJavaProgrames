@@ -21,6 +21,8 @@ public class _2ExceptionsPrintMethodsDemo {
 			e.printStackTrace();
 			System.out.println(e.toString());
 			System.out.println(e.getMessage());
+		} catch (Exception e) {
+			
 		}
 		
 		System.out.println("returning to to main()");
