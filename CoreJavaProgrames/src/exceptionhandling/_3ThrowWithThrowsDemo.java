@@ -14,7 +14,7 @@ class AccountException extends Exception {
 	}
 }
 
-public class _3ThrowDemo {
+public class _3ThrowWithThrowsDemo {
 
 	public static void accountTest(double amount, double balance)
 			throws AccountException {
@@ -27,7 +27,7 @@ public class _3ThrowDemo {
 
 	public static void main(String[] args) throws AccountException {
 		accountTest(1000,900);
-		System.out.println();
+		System.out.println("After throw ");
 	}
 
 }
