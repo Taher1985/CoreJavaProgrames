@@ -19,7 +19,7 @@ public class StackDemo {
 
 		System.out.println();
 
-		System.out.println("Peep returns only element from top of stack : " + s.peek());
+		System.out.println("Peek returns only element from top of stack : " + s.peek());
 		System.out.println(s);
 
 		System.out.println();
