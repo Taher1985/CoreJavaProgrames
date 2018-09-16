@@ -11,6 +11,7 @@ public class _1BasicMapDemo {
 	public static void main(String[] args) {
 		
 		Map<Integer, String> map = new HashMap<>();
+		System.out.println(map.put(null, "Amit"));
 		System.out.println(map.put(1, "Amit"));
 		System.out.println(map.put(2, "Yash"));
 		System.out.println(map.put(3, "Nitu"));
